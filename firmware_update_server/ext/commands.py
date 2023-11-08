@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from firmware_update_server.ext.auth import create_user
+from firmware_update_server.ext.database import db
+from firmware_update_server.models import Product
 
 
 def create_db():

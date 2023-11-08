@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from firmware_update_server import create_app
+from firmware_update_server.ext.commands import populate_db
+from firmware_update_server.ext.database import db
 
 
 @pytest.fixture(scope="session")
